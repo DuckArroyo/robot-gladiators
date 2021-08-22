@@ -1,8 +1,13 @@
+/* GAME FUNCTIONS */
+
+
 // function to generate a random numeric value
 var randomNumber = function() {
   var value = Math.floor(Math.random() * (21)) + 40;
   return value;
 };
+
+/* GAME INFORMATION / VARIABLES */
 
 var playerInfo = {
   name: window.prompt("What is your robot's name?"),
@@ -51,6 +56,7 @@ var enemyInfo = [
   }
 ];
 
+/* END GAME INFORMATION / VARIABLES */
 
 
 console.log (Math.random());
@@ -236,5 +242,7 @@ var shop = function() {
   }
 };
 
-// start first game when page loads
+/* END GAME FUNCTIONS */
+
+/* RUN GAME */s
 startGame();
