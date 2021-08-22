@@ -8,8 +8,8 @@ var enemyHealth = 50;
 var enemyAttack = 12;
 
 // function to generate a random numeric value
-var randomNumber = function() {
-  var value = Math.floor(Math.random() * 21) + 40;
+var randomNumber = function(40, 60) {
+  var value = Math.floor(Math.random() * (21)) + 40;
 
   return value;
 };
