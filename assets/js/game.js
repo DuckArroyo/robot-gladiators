@@ -4,6 +4,19 @@ var randomNumber = function() {
   return value;
 };
 
+var getPlayerName = function() {
+  var name = "";
+
+  // ***************************************
+  while (name === "" || name === null) {
+  name = prompt("What is your robot's name?");
+  }
+  // ***************************************
+
+  console.log("Your robot's name is " + name);
+  return name;
+};
+
 var playerInfo = {
   name: window.prompt("What is your robot's name?"),
   health: 100,
@@ -50,8 +63,6 @@ var enemyInfo = [
     attack: randomNumber(10, 14)
   }
 ];
-
-
 
 console.log (Math.random());
 
@@ -235,6 +246,9 @@ var shop = function() {
 
   }
 };
+
+getPlayerName()
+// function to set name
 
 // start first game when page loads
 startGame();
