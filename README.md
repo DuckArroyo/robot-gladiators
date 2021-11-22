@@ -1,5 +1,5 @@
 ## robot-gladiators
-#Section 3, Java script 
+Bootcamp Module 3, Java script 
 
 From 3.1.2 Preview
 1. The game will prompt the player to name their robot.
