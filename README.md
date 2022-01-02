@@ -14,9 +14,9 @@ DeveloperDuckArroyo
 
 [Email](mailto:DeveloperDuckArroyo@gmail.com)
 
-[Portfolio](https://github.com/DuckArroyo/portfolio)
+[Portfolio](https://duckarroyo.github.io/portfolio/)
 
-[React Portfolio](http://DuckArroyo.github.io/reactPortfolio)
+[React Portfolio](https://peaceful-journey-85026.herokuapp.com/)
 
 [GitHub](https://github.com/DuckArroyo)
 
